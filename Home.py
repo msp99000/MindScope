@@ -5,22 +5,24 @@ from streamlit_extras.switch_page_button import switch_page
 
 streamlit_style()
 
+# App Logo
 st.image('logo.png')
 
-
 # Add header
-st.title('Sad2Happy - Your Emotional Wellness Companion')
+st.title('MindScope - Navigate Your Mind')
 
 # Add description
-st.write('Sad2Happy is an innovative web application that uses Machine Learning algorithms to predict mental health risks. With our user-friendly questionnaires, we enable early diagnosis and intervention for depression, stress, and anxiety. Select any of the disorders below to continue')
+description = '''
+    Mindscope is an AI-powered application that helps individuals understand and manage their mental health. By analyzing responses to a questionnaire, it predicts the intensity of stress, depression, and anxiety. Mindscope provides personalized recommendations to improve mental well-being, including exercises and guided meditations. Its user-friendly interface and easy-to-understand insights make it an essential tool for anyone seeking to enhance their mental health.
+'''
+st.write(description)
 st.header(' ')
-
-# Add call buttons to navigate pages
 
 def main():
 
     depression, anxiety, stress = st.columns(3)
 
+    # Add call buttons to navigate pages
     with depression:
         dep_btn = st.button("Do you feel Depressed?")
         if dep_btn:

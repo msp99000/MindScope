@@ -6,7 +6,7 @@ def streamlit_style():
 
     st.set_option('deprecation.showPyplotGlobalUse', False)
 
-    st.set_page_config(initial_sidebar_state = "collapsed", layout = 'centered', page_icon = 'assets/logo-black.png', page_title = 'Sad2Happy')
+    st.set_page_config(initial_sidebar_state = "collapsed", layout = 'centered', page_icon = 'logo.png', page_title = 'MindScope')
 
     st.markdown('<style> div.block-container{padding-top:0rem;} </style>', unsafe_allow_html=True)
 
