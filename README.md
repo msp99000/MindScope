@@ -1,2 +1,3 @@
-# EmoAI
-EmoAI is a user-friendly web app that predicts mental health risks with Machine Learning. It provides personalized insights to enable early diagnosis and intervention, revolutionizing mental health care with the power of AI.
+# MindScope - Navigate your mind
+Mindscope is an AI-powered application that helps individuals understand and manage their mental health. By analyzing responses to a questionnaire, it predicts the intensity of stress, depression, and anxiety. Mindscope provides personalized recommendations to improve mental well-being, including exercises and guided meditations. Its user-friendly interface and easy-to-understand insights make it an essential tool for anyone seeking to enhance their mental health.
+
