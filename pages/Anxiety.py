@@ -55,5 +55,5 @@ st.write("")
 home_button_end = st.button("🏠 Take me to Home Page", key = 'end')
 
 if home_button_end:
-    switch_page("app")
+    switch_page("Home")
 
